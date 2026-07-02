@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/images/info/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function () {
+        var theme = localStorage.getItem('gym-club-theme');
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+    <meta name="description" content="Gym Club Sousse - Plus de 300 cours collectifs par mois, staff qualifié, programmes personnalisés. Ouvert 7j/7, hommes et femmes. Khezema Ouest, Sousse." />
+    <title>Gym Club Sousse | Khezema Ouest, Sousse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-DgRn4UKt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D2Va2F74.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
